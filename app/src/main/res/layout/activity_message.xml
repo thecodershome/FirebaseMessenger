@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="g20.homework8.MessageActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messageRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/msgText_txt_Message"
+        android:layout_alignEnd="@+id/send_btn_Message"
+        app:stackFromEnd="true" />
+
+    <EditText
+        android:id="@+id/msgText_txt_Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/send_btn_Message"
+        android:hint="Enter Message"
+        android:imeActionId="5"
+        android:maxLength="140" />
+
+    <Button
+        android:id="@+id/send_btn_Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Send" />
+</RelativeLayout>

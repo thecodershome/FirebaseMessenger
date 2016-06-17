@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Homework8</string>
+    <string name="FIREBASE">YOUR-FIREBASE-APP-URL</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="passwordAgain_hint">Repeat Password</string>
+    <string name="signup_btn_label">SignUp</string>
+    <string name="login_btn_label">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="userName_hint">Username</string>
+    <string name="phoneNumber_hint">Phone Number</string>
+    <string name="viewContact_Label">View Contact</string>
+    <string name="messagesLabel">Messages</string>
+    <string name="editProfileLabel">Edit Profile</string>
+    <string name="signupLabel">Stay In Touch (Signup)</string>
+    <string name="loginLabel">Stay In Touch (Login)</string>
+    <string name="stayintouchLabel">Stay In Touch</string>
+    <string name="phonePermissionFailed">Turn App Phone Permissions On To Call Directly</string>
+    <string name="missingUserData">Sorry Haven\'t Loaded Your Data Yet</string>
+</resources>
